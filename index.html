@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+</head>
+
+
+
+
+
+<body>
+    <div class="container py-5">
+
+        <div class="card w-75 mx-auto">
+            <div class="bg-holder d-none d-lg-block bg-card"></div>
+            <div class="card-body position-relative p-0">
+                <div class="row p-0">
+
+                </div>
+                <div class="col-12 col-md-8 col-lg-9 col-xl-10 tab-content" id="v-pills-tabContent">
+                    <div class="tab-pane fade show active" id="bai1" role="tabpanel" aria-labelledby="v-pills-home-tab">
+                        <div class="callout callout-info">
+
+                            <script src="./js/main.min.js"></script>
+
+                            <h1>Bài 1: Nhập vào 3 số nguyên.Xuất 3 số theo thứ tự tăng dần:</h1>
+
+                            <form id="form1" class="row gy-3 align-items-center px-2">
+                                <div class="col-12 col-lg-4">
+                                    <input type="text" class="form-control form__input" id="inputNum1"
+                                        placeholder="Nhập số thứ 1">
+                                </div>
+                                <div class="col-12 col-lg-4">
+                                    <input type="text" class="form-control form__input" id="inputNum2"
+                                        placeholder="Nhập số thứ 2">
+                                </div>
+                                <div class="col-12 col-lg-4">
+                                    <input type="text" class="form-control form__input" id="inputNum3"
+                                        placeholder="Nhập số thứ 3">
+                                </div>
+
+                                <div class="col-12 col-lg-4 ">
+                                    <button id="btn" type="button" class="btn btn-primary">Sắp xếp</button>
+                                </div>
+                                <div class="card-footer text-muted" id="sapxep">
+                                </div>
+                            </form>
+                        </div>
+
+                        </form>
+                        <hr>
+
+
+                        <h1>BÀI 2:Chào hỏi</h1>
+                    </div>
+
+                    <h4>Ai đang sử dụng máy?</h4>
+
+                    <select class="form-control" name="" id="who">
+                        <option value="">Chọn thành viên</option>
+                        <option value="1">Bố</option>
+                        <option value="2">Mẹ</option>
+                        lue <option value="3">Anh trai</option>
+                        <option va="4">Em gái</option>
+                    </select>
+                </div>
+                <button id="btnHello" type="button" class="xbtn btn-primary">Gửi lời chào</button>
+                <div class="card-footer text-muted" id="chao"></div>
+                <hr>    
+
+                <h1>BÀI 3: Đếm số chẵn lẻ</h1>
+                <input id="soThu1" type="text" placeholder="Nhap so thu 1" />
+                <input id="soThu2" type="text" placeholder="Nhap so thu 2" />
+                <input id="soThu3" type="text" placeholder="Nhap so thu 3" />
+                <button id="btnDem" type="button" class="btn btn-primary">Phân Loại</button>
+                <div class="card-footer text-muted" id="phanloai"></div>    
+
+
+                <hr>
+
+                <h1>BÀI 4:Nhập 3 cạnh của tam giác. Hãy cho biết đó là tam giác gì?</h1>
+                <form id="form4" class="row gy-3 align-items-center px-2">
+                    <div class="col-12 col-lg-4">
+                        <input type="text" class="form-control form__input" id="a"
+                            placeholder="Nhập độ dài cạnh 1">
+                    </div>
+                    <div class="col-12 col-lg-4">
+                        <input type="text" class="form-control form__input" id="b"
+                            placeholder="Nhập độ dài cạnh 2">
+                    </div>
+                    <div class="col-12 col-lg-4">
+                        <input type="text" class="form-control form__input" id="c"
+                            placeholder="Nhập độ dài cạnh 3">
+                    </div>
+
+                    <div class="col-12">
+                        <button class="btn btn--primary me-1 mb-1" type="button" id="btnEdge">Dự
+                            Đoán</button>
+                    </div>
+                    <button id="btncanh" type="button" class="btn btn-primary">Phân Loại</button>
+                    <div class="card-footer text-muted" id="phanloai1">
+                </form>
+
+            </div>
+
+                        <script src="./index.js"></script>
+</body>
+
+</html>
